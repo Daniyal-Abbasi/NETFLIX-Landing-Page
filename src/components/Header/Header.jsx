@@ -12,10 +12,10 @@ const Header = () => {
         <img src={Logo} alt="" />
         </div>
         <nav>
-            <Link to="/TVShows" >TVShows</Link>
-            <Link to="/Movies" >Movies</Link>
-            <Link to="/ReentlyAdded" >ReentlyAdded</Link>
-            <Link to="/MyList" >MyList</Link>
+            <Link to="/" >TVShows</Link>
+            <Link to="/" >Movies</Link>
+            <Link to="/" >ReentlyAdded</Link>
+            <Link to="/" >MyList</Link>
         </nav>
 
         <FiSearch />
